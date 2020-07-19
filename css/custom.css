@@ -4,3 +4,11 @@
 h5 {
     margin-bottom: 0em;
 }
+h3 .owner{ 
+    color: #444;
+    font-size: 16px;
+    font-weight: bolder;
+}
+h2 .repo{
+    color:#199494
+}
