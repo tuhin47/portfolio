@@ -8,6 +8,7 @@ import { RouterModule }               from '@angular/router';
 // Layouts
 import { LayoutHeaderComponent }     from './components/layouts/layout-header/layout-header.component';
 import { PageLayoutComponent }       from './components/layouts/page-layout/page-layout.component';
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { PageLayoutComponent }       from './components/layouts/page-layout/page
     RouterModule,
     FormsModule,
     ReactiveFormsModule,
+    BrowserAnimationsModule
   ],
   declarations    :
   [
@@ -25,7 +27,6 @@ import { PageLayoutComponent }       from './components/layouts/page-layout/page
     // Layouts
     LayoutHeaderComponent,
     PageLayoutComponent,
-
 
   ],
   exports         :
