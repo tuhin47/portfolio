@@ -24,7 +24,7 @@ jobs:
         run: npm run build:git
 
       - name: Create 404 file
-        run: cp dist/my-portfolio/index.html dist/my-portfolio/404.html
+        run: cp dist/my-portfolia/index.html dist/my-portfolia/404.html
 
       - name: Deploy
         if: success()
