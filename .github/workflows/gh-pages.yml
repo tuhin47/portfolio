@@ -23,6 +23,9 @@ jobs:
       - name: Build
         run: npm run build:git
 
+      - name: Create 404 file
+        run: cp dist/my-portfolio/index.html dist/my-portfolio/404.html
+
       - name: Deploy
         if: success()
         uses: peaceiris/actions-gh-pages@v3
