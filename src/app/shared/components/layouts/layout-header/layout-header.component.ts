@@ -12,6 +12,7 @@ import packageInfo from '../../../../../../package.json';
 })
 export class LayoutHeaderComponent implements OnInit {
   version: any;
+  versionLink: any;
   tabs = [
     {
       routerLink: "/about", icon: "icon-user", description: "About",
@@ -29,6 +30,7 @@ export class LayoutHeaderComponent implements OnInit {
 
   public ngOnInit(): void {
     this.version = packageInfo.version;
+    this.versionLink = `https://github.com/tuhin47/Portfolio/releases/tag/${packageInfo.version}`;
   }
 
 }
