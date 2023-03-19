@@ -12,6 +12,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Release
+        uses: justincy/github-action-npm-release@v1.2.0
+        id: release
+      - name: Print release output
+        if: ${{ steps.release.outputs.released == 'true' }}
+        run: echo Release ID ${{ steps.release.outputs.release_id }}
+
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
