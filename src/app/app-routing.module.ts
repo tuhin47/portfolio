@@ -5,6 +5,7 @@ import {AboutComponent} from "./about/about.component";
 import {ResumeComponent} from "./resume/resume.component";
 import {ProjectsComponent} from "./projects/projects.component";
 import {ContactComponent} from "./contact/contact.component";
+import {OtherComponent} from "./other/other.component";
 
 const routes: Routes = [
   {
@@ -32,6 +33,10 @@ const routes: Routes = [
         component: ContactComponent
       }
     ]
+  },
+  {
+    path: 'other',
+    component: OtherComponent
   }
 ]
 
