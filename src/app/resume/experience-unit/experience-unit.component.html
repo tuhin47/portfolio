@@ -1,0 +1,13 @@
+<ul class="no-list work">
+  <li>
+    <h5>
+      {{experience.position}}
+    </h5><span class="label label-info">{{experience.period}}</span>
+    <br>
+    <h6><a [href]="experience.companyUrl" target="_blank">{{experience.company}}</a></h6>
+    <ul>
+      <li *ngFor="let item of experience.responsibilities">{{item}}</li>
+    </ul>
+    <br>
+  </li>
+</ul>

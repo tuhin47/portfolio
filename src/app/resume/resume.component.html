@@ -5,63 +5,9 @@
         <h3>
           Working Experiences
         </h3>
-        <ul class="no-list work">
-          <li>
-            <h5>
-              Associate Senior Engineer
-            </h5><span class="label label-info">06/2021-Current</span>
-            <br>
-            <h6><a href="https://www.revesoft.com/" target="_blank">OneIT Custom Business Software</a></h6>
-            <ul>
-              <li>Full Stack Web Developer in BTCL automation project</li>
-              <ul>
-                <li>Managing Small Teams, Code Review, Database Design and Deployment</li>
-                <li>Scoping on new Projects, Estimation, Feasibility testing</li>
-                <li>Working on Java-Based Framework, Core Module Development</li>
-                <li>Integrating 3rd Party API</li>
-                <li>Angular Based front-end development</li>
-              </ul>
-            </ul>
-            <br>
-
-          </li>
-        </ul>
-        <br>
-        <ul class="no-list work">
-          <li>
-            <h5>
-              Software Engineer
-            </h5><span class="label label-info">09/2019-05/2021</span>
-            <br>
-            <h6><a href="https://www.revesoft.com/" target="_blank">REVE System</a></h6>
-            <ul>
-              <li>Full Stack Web Developer in BTCL automation project</li>
-              <ul>
-                <li>Java-Based Spring Boot, Struts2 backend development</li>
-                <li>Vue, Vuex Based front-end development</li>
-                <li>Server management and deployment</li>
-              </ul>
-            </ul>
-            <br>
-
-          </li>
-        </ul>
-        <br>
-        <ul class="no-list work">
-          <li>
-            <h5>Software Engineer </h5>
-            <span class="label label-info">09/2018-07/2019</span>
-            <br>
-            <h6><a href="https://research.samsung.com/srbd" target="_blank">Samsung R&D Institute Bangladesh</a>
-            </h6>
-            <ul>
-              <li>Tizen web and native app development.</li>
-              <li>Software developments for Internet Browser of Tizen Wearables.</li>
-            </ul>
-            <br>
-
-          </li>
-        </ul>
+        <div *ngIf="isCompleted">
+          <app-experience-unit *ngFor="let experience of experiences"  [experience]="experience"></app-experience-unit>
+        </div>
         <h3>
           Education
         </h3>
