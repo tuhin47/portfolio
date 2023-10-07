@@ -2,10 +2,14 @@
   <li>
     <h5>
       {{experience.position}}
-    </h5><span class="label label-info">{{experience.period}}</span>
+    </h5>
+    <span class="label label-success">{{experience.period}}</span>
     <br>
-    <h6><a [href]="experience.companyUrl" target="_blank">{{experience.company}}</a></h6>
-    <ul>
+    <div>
+      <strong *ngIf="experience.company" ><a [href]="experience.companyUrl" target="_blank">{{experience.company}}</a></strong>
+      <div *ngIf="experience.details"><p [innerHTML]="experience.details | safe: 'html'" ></p></div>
+    </div>
+    <ul *ngIf="experience.responsibilities.length>0">
       <li *ngFor="let item of experience.responsibilities">{{item}}</li>
     </ul>
     <br>

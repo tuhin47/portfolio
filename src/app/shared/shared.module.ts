@@ -9,6 +9,7 @@ import { RouterModule }               from '@angular/router';
 import { LayoutHeaderComponent }     from './components/layouts/layout-header/layout-header.component';
 import { PageLayoutComponent }       from './components/layouts/page-layout/page-layout.component';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import { SafePipe } from './utils/safe.pipe';
 
 
 @NgModule({
@@ -27,22 +28,24 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
     // Layouts
     LayoutHeaderComponent,
     PageLayoutComponent,
+    SafePipe,
 
   ],
-  exports         :
-  [
-    // Angular modules
-    CommonModule,
-    RouterModule,
-    FormsModule,
-    ReactiveFormsModule,
+  exports:
+    [
+      // Angular modules
+      CommonModule,
+      RouterModule,
+      FormsModule,
+      ReactiveFormsModule,
 
 
-    // Layouts
-    LayoutHeaderComponent,
-    PageLayoutComponent,
+      // Layouts
+      LayoutHeaderComponent,
+      PageLayoutComponent,
+      SafePipe,
 
-  ],
+    ],
   providers       :
   [
   ]

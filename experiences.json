@@ -1,0 +1,113 @@
+{
+  "experiences": [
+    {
+      "position": "Senior Engineer",
+      "responsibilities": [
+        "Managing Small Teams, Code Review",
+        "Scoping on new Projects, Estimation, Feasibility testing",
+        "System Design and Deployment",
+        "Integrating 3rd Party API"
+      ],
+      "period": "04/2023-Current",
+      "company": "OneIT Custom Business Software",
+      "companyUrl": "https://oneit.com.au/"
+    },
+    {
+      "position": "Associate Senior Engineer",
+      "responsibilities": [
+        "Full Stack Developer",
+        "Database design for projects",
+        "Working on Java-Based Framework",
+        "Core Module Development",
+        "Angular Based front-end development"
+      ],
+      "period": "06/2021-04/2023",
+      "company": "OneIT Custom Business Software",
+      "companyUrl": "https://oneit.com.au/"
+    },
+    {
+      "position": "Software Engineer",
+      "responsibilities": [
+        "Full Stack Web Developer in BTCL automation project",
+        "Java-Based Spring Boot, Struts2 backend development",
+        "Vue, Vuex Based front-end development",
+        "Server management and deployment"
+      ],
+      "period": "09/2019-05/2021",
+      "company": "REVE System",
+      "companyUrl": "https://www.revesoft.com/"
+    },
+    {
+      "position": "Software Engineer",
+      "responsibilities": [
+        "Tizen web and native app development.",
+        "Software developments for Internet Browser of Tizen Wearables."
+      ],
+      "period": "09/2018-07/2019",
+      "company": "Samsung R&D Institute Bangladesh",
+      "companyUrl": "https://research.samsung.com/srbd"
+    }
+  ],
+  "educations": [
+    {
+      "position": "B.Sc.(Eng.) in Computer Science & Engineering",
+      "responsibilities": [],
+      "details": "<i> CGPA \u2013 3.58 out of 4.00</i>",
+      "period": "2013-2018",
+      "company": "Shahjalal University of Science and Technology",
+      "companyUrl": "https://www.sust.edu/d/cse"
+    },
+    {
+      "position": "Higher Secondary Certificate (HSC)",
+      "responsibilities": [],
+      "details": "<i> GPA \u2013 5.00 out of 5.00</i>",
+      "period": "2011-2012",
+      "company": "Dhaka City College, Dhaka Board",
+      "companyUrl": "https://www.dhakacitycollege.edu.bd/"
+    },
+    {
+      "position": "Secondary School Certificate (SSC)",
+      "responsibilities": [],
+      "details": "<i> GPA \u2013 5.00 out of 5.00</i>",
+      "period": "2009-2010",
+      "company": "Ashuganj Sharkarkhana School,Comilla Board",
+      "companyUrl": "http://www.askcollege.edu.bd/"
+    }
+  ],
+  "publications": [
+    {
+      "company": "Continuous Bengali Speech Recognition Based On Deep Neural Network",
+      "responsibilities": [],
+      "details": "Authors: Md. Alif Al Amin, <strong>Md. Towhidul Islam </strong>, Shafkat Kibria and Mohammad Shahidur Rahman.",
+      "period": "02/2019",
+      "position": "2019 International Conference (ECCE)",
+      "companyUrl": "https://ieeexplore.ieee.org/document/8679341"
+    }
+  ],
+  "extras": [
+    {
+      "position": "Publication Secretary, CSE Society",
+      "responsibilities": [],
+      "details": "<i>Shahjalal University of Science and Technology, Sylhet.</i>",
+      "period": "2015-2016",
+      "company": "",
+      "companyUrl": ""
+    },
+    {
+      "position": "Member, Yadob Chandra Chakraborty Math Club",
+      "responsibilities": [],
+      "details": "<i>Ashuganj Sharkarkhana School, Brahmanbaria.</i>",
+      "period": "2006-2010",
+      "company": "",
+      "companyUrl": ""
+    },
+    {
+      "position": "Member, Bangladesh National Cadet Core",
+      "responsibilities": [],
+      "details": "<i>Ashuganj Sharkarkhana School, Brahmanbaria.</i>",
+      "period": "2005-2011",
+      "company": "",
+      "companyUrl": ""
+    }
+  ]
+}
