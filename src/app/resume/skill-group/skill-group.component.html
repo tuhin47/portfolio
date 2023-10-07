@@ -1,0 +1,16 @@
+<h5>
+  {{skill.title}}
+</h5>
+<br>
+<div *ngFor="let item of skill.items" [ngClass]="item.itemClass">
+  <span [ngStyle]="{width : item.width }" ><span>{{item.name}}</span></span>
+</div>
+<!--<div class="meter midnight">
+  <span style="width: 65%"><span>Spring Boot/ JPA </span></span>
+</div>
+<div class="meter wisteria">
+  <span style="width: 60%"><span> Javascript/ Typescript</span></span>
+</div>
+<div class="meter sunflower">
+  <span style="width: 50%"><span>HTML/ CSS</span></span>
+</div>-->

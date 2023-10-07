@@ -11,6 +11,7 @@ import { ContactComponent } from './contact/contact.component';
 import { ContactItemComponent } from './contact/contact-item/contact-item.component';
 import { OtherComponent } from './other/other.component';
 import { ExperienceUnitComponent } from './resume/experience-unit/experience-unit.component';
+import { SkillGroupComponent } from './resume/skill-group/skill-group.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ExperienceUnitComponent } from './resume/experience-unit/experience-uni
     ContactComponent,
     ContactItemComponent,
     OtherComponent,
-    ExperienceUnitComponent
+    ExperienceUnitComponent,
+    SkillGroupComponent
   ],
   imports: [
     BrowserModule,

@@ -1,12 +1,17 @@
 {
   "experiences": [
     {
-      "position": "Senior Engineer",
+      "position": "Senior Software Engineer",
       "responsibilities": [
-        "Managing Small Teams, Code Review",
-        "Scoping on new Projects, Estimation, Feasibility testing",
-        "System Design and Deployment",
-        "Integrating 3rd Party API"
+        "Lead and mentor small team of engineers and fostering collaboration.",
+        "Define project goals and assign tasks.",
+        "Provide guidance and support to team members.",
+        "Monitor and evaluate team performance, identifying areas for improvement",
+        "Scoping, Feasibility testing, Estimation on new Projects",
+        "Lead the design phase and creating technical specifications",
+        "Conduct thorough code reviews to ensure code quality , maintainability  and adherence to coding standards",
+        "Manage the deployment process, including staging and production environments.",
+        "Evaluate and select appropriate third-party APIs for specific project requirements"
       ],
       "period": "04/2023-Current",
       "company": "OneIT Custom Business Software",
@@ -15,10 +20,11 @@
     {
       "position": "Associate Senior Engineer",
       "responsibilities": [
-        "Full Stack Developer",
-        "Database design for projects",
-        "Working on Java-Based Framework",
-        "Core Module Development",
+        "Develop end-to-end web applications, handling both front-end and back-end components.",
+        "Collaborate with cross-functional teams to understand project requirements and user needs.",
+        "Design and create database schemas tailored to specific project requirements.",
+        "Utilize Java-based frameworks to develop robust back-end solutions.",
+        "Development of essential core modules and components for applications.",
         "Angular Based front-end development"
       ],
       "period": "06/2021-04/2023",
@@ -29,7 +35,7 @@
       "position": "Software Engineer",
       "responsibilities": [
         "Full Stack Web Developer in BTCL automation project",
-        "Java-Based Spring Boot, Struts2 backend development",
+        "Java-based frameworks (e.g., Spring, Hibernate) to build RESTful APIs and microservices.",
         "Vue, Vuex Based front-end development",
         "Server management and deployment"
       ],
@@ -108,6 +114,113 @@
       "period": "2005-2011",
       "company": "",
       "companyUrl": ""
+    }
+  ],
+  "skillGroups": [
+    {
+      "title": "Web Development",
+      "items": [
+        {
+          "name": "Java / Javascript / Typescript",
+          "itemClass": "meter emerald",
+          "width": "80%"
+        },
+        {
+          "name": "Spring boot / Angular / Vue",
+          "itemClass": "meter carrot",
+          "width": "75%"
+        },
+        {
+          "name": "JPA, ORM, Security",
+          "itemClass": "meter wisteria",
+          "width": "70%"
+        },
+        {
+          "name": "HTML, CSS",
+          "itemClass": "meter sunflower",
+          "width": "70%"
+        }
+      ]
+    },
+    {
+      "title": "Database",
+      "items": [
+        {
+          "name": "MySQL / PostgresSQL",
+          "itemClass": "meter midnight",
+          "width": "80%"
+        },
+        {
+          "name": "MongoDB, Redis",
+          "itemClass": "meter pomengrate",
+          "width": "50%"
+        }
+      ]
+    },
+    {
+      "title": "Tools",
+      "items": [
+        {
+          "name": "Git/ Kanban/ Postman",
+          "itemClass": "meter asbestos",
+          "width": "75%"
+        },
+        {
+          "name": "Docker/ Jenkins",
+          "itemClass": "meter emerald",
+          "width": "70%"
+        },
+        {
+          "name": "Linux / Windows",
+          "itemClass": "meter carrot",
+          "width": "70%"
+        }
+      ]
+    },
+    {
+      "title": "Problem Solving",
+      "items": [
+        {
+          "name": "UVA (tuhin_sust,solved:208)",
+          "itemClass": "meter wisteria",
+          "width": "75%"
+        },
+        {
+          "name": "Hackerrank(tuhin_sust)",
+          "itemClass": "meter sunflower",
+          "width": "60%"
+        }
+      ]
+    },
+    {
+      "title": "Soft Skill",
+      "items": [
+        {
+          "name": "Time Management.",
+          "itemClass": "meter midnight",
+          "width": "80%"
+        },
+        {
+          "name": "Documentation",
+          "itemClass": "meter pomengrate",
+          "width": "70%"
+        }
+      ]
+    },
+    {
+      "title": "Languages",
+      "items": [
+        {
+          "name": "Bangla(Native)",
+          "itemClass": "meter asbestos",
+          "width": "90%"
+        },
+        {
+          "name": "English",
+          "itemClass": "meter emerald",
+          "width": "65%"
+        }
+      ]
     }
   ]
 }

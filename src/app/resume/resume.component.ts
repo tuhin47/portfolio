@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {Experience} from "./experience-unit/experience";
+import {SkillGroup} from "./skill-group/skill-group";
 
 @Component({
   selector: 'app-resume',
@@ -13,8 +14,11 @@ export class ResumeComponent implements OnInit {
   extras?: Experience[];
   isCompleted = true;
 
+
+  skillGroups!: SkillGroup[];
   ngOnInit(): void {
     // fetch("https://gist.githubusercontent.com/tuhin47/ee4d6449b4f7d0a71b39b2c5a08f6571/raw/experiences.json",
+
     fetch("http://localhost:9090/expeiences",
       {
         method: 'GET',
@@ -26,6 +30,7 @@ export class ResumeComponent implements OnInit {
         this.educations = result.educations;
         this.publications = result.publications;
         this.extras = result.extras;
+        this.skillGroups = result.skillGroups;
         this.isCompleted = true;
         console.log(result)
       })
