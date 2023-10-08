@@ -2,37 +2,21 @@
   <div id="resume">
     <section class="clearfix">
       <div *ngIf="isCompleted" class="g2">
-        <h3>
-          Working Experiences
-        </h3>
-        <div>
-          <app-experience-unit *ngFor="let experience of experiences" [experience]="experience"></app-experience-unit>
+        <div *ngFor="let exp of listOfExperiences">
+          <h3>
+            {{exp.title}}
+          </h3>
+          <ul class="no-list work">
+            <app-experience-unit *ngFor="let item of exp.data" [experience]="item"></app-experience-unit>
+          </ul>
         </div>
-        <h3>
-          Education
-        </h3>
-        <ul class="no-list work">
-          <app-experience-unit *ngFor="let edu of educations" [experience]="edu"></app-experience-unit>
-        </ul>
-        <h3>
-          Publications
-        </h3>
-        <ul class="no-list work">
-          <app-experience-unit *ngFor="let pub of publications" [experience]="pub"></app-experience-unit>
-        </ul>
-        <h3>
-          Extra-Curricular Activities
-        </h3>
-        <ul class="no-list work">
-          <app-experience-unit *ngFor="let item of extras" [experience]="item"></app-experience-unit>
-        </ul>
       </div>
       <div class="g1">
         <div class="sidebar">
           <h3>
             Skills
           </h3>
-          <app-skill-group *ngFor="let skillGroup of skillGroups" [skillGroup]="skillGroup" ></app-skill-group>
+          <app-skill-group *ngFor="let skillGroup of skillGroups" [skillGroup]="skillGroup"></app-skill-group>
         </div>
       </div>
     </section>
