@@ -1,8 +1,8 @@
 // Angular modules
 import {Component, OnInit} from '@angular/core';
 import {FadeInOut} from "../../../utils/fade-in-out";
-// @ts-ignore
-import packageInfo from '../../../../../../package.json';
+import {environment} from "../../../../../environments/environment";
+
 
 @Component({
   selector: 'app-layout-header',
@@ -20,17 +20,17 @@ export class LayoutHeaderComponent implements OnInit {
     {
       routerLink: "/resume", icon: "icon-file-text", description: "Experience",
     },
-    {
-      routerLink: "/projects", icon: "icon-heart", description: "Projects",
-    },
+    /* {
+       routerLink: "/projects", icon: "icon-heart", description: "Projects",
+     },*/
     {
       routerLink: "/contact", icon: "icon-envelope", description: "Contact",
     }
   ];
 
   public ngOnInit(): void {
-    this.version = packageInfo.version;
-    this.versionLink = `https://github.com/tuhin47/Portfolio/releases/tag/${packageInfo.version}`;
+    this.version = environment.version;
+    this.versionLink = `https://github.com/tuhin47/Portfolio/releases/tag/${this.version}`;
   }
 
 }

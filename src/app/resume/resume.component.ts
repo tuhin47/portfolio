@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
-import {Experience} from "./experience-unit/experience";
 import {SkillGroup} from "./skill-group/skill-group";
+import {environment} from "../../environments/environment";
 
 @Component({
   selector: 'app-resume',
@@ -14,7 +14,7 @@ export class ResumeComponent implements OnInit {
   isCompleted = false;
 
   ngOnInit(): void {
-    fetch("https://gist.githubusercontent.com/tuhin47/ee4d6449b4f7d0a71b39b2c5a08f6571/raw/experiences.json",
+    fetch(`${environment.apiBase}/experiences.json`,
     // fetch("http://localhost:9090/expeiences",
       {
         method: 'GET',
