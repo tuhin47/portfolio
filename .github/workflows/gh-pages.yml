@@ -31,7 +31,10 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run build:git
+        run: |
+          export API_BASE=${{ vars.API_BASE }}
+          echo $API_BASE
+          npm run build:git
 
       - name: Create 404 file
         run: cp dist/my-portfolia/index.html dist/my-portfolia/404.html
