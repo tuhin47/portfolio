@@ -29,7 +29,9 @@
               "src/_redirects"
             ],
             "styles": [
-              "src/styles.css"
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./src/assets/css/main.css",
+              "./src/styles.css"
             ],
             "scripts": []
           },

@@ -20,9 +20,9 @@ export class LayoutHeaderComponent implements OnInit {
     {
       routerLink: "/resume", icon: "icon-file-text", description: "Experience",
     },
-    /* {
-       routerLink: "/projects", icon: "icon-heart", description: "Projects",
-     },*/
+    {
+      routerLink: "/projects", icon: "icon-heart", description: "Projects",
+    },
     {
       routerLink: "/contact", icon: "icon-envelope", description: "Contact",
     }
