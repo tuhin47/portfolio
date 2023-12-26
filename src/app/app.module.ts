@@ -12,6 +12,7 @@ import { ContactItemComponent } from './contact/contact-item/contact-item.compon
 import { OtherComponent } from './other/other.component';
 import { ExperienceUnitComponent } from './resume/experience-unit/experience-unit.component';
 import { SkillGroupComponent } from './resume/skill-group/skill-group.component';
+import { AboutSidebarComponent } from './about/about-sidebar/about-sidebar.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { SkillGroupComponent } from './resume/skill-group/skill-group.component'
     ContactItemComponent,
     OtherComponent,
     ExperienceUnitComponent,
-    SkillGroupComponent
+    SkillGroupComponent,
+    AboutSidebarComponent
   ],
   imports: [
     BrowserModule,

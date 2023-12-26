@@ -1,3 +1,9 @@
+
+export interface WorkingPlace{
+  title: string;
+  data: Experience[];
+}
+
 export interface Experience {
   position: string;
   responsibilities: string[];

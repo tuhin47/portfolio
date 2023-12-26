@@ -1,6 +1,8 @@
 import {Component, OnInit} from '@angular/core';
 import {SkillGroup} from "./skill-group/skill-group";
 import {environment} from "../../environments/environment";
+import {WorkingPlace} from "./experience-unit/experience";
+import {AppService} from "../shared/app.service";
 
 @Component({
   selector: 'app-resume',
@@ -9,23 +11,18 @@ import {environment} from "../../environments/environment";
 })
 export class ResumeComponent implements OnInit {
 
-  listOfExperiences?: any[];
+  listOfExperiences!: WorkingPlace[];
   skillGroups!: SkillGroup[];
   isCompleted = false;
 
+  constructor(private appService: AppService) {}
+
   ngOnInit(): void {
-    fetch(`${environment.apiBase}/experiences.json`,
-    // fetch("http://localhost:9090/expeiences",
-      {
-        method: 'GET',
-        redirect: 'follow'
-      })
-      .then(response => response.json())
+    this.appService.getAppData()
       .then(result => {
         this.listOfExperiences = result.listOfExperiences;
         this.skillGroups = result.skillGroups;
         this.isCompleted = true;
-        console.log(result)
       })
       .catch(error => console.log('error', error));
   }
